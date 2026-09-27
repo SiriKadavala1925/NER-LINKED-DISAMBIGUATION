@@ -1,0 +1,50 @@
+[
+  {
+    "id": "conll_01",
+    "text": "Steve Jobs and Steve Wozniak co-founded Apple in Cupertino, California.",
+    "entities": [
+      {"text": "Steve Jobs", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Steve_Jobs"},
+      {"text": "Steve Wozniak", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Steve_Wozniak"},
+      {"text": "Apple", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Apple_Inc."},
+      {"text": "Cupertino", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Cupertino,_California"},
+      {"text": "California", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/California"}
+    ]
+  },
+  {
+    "id": "conll_02",
+    "text": "Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.",
+    "entities": [
+      {"text": "Google", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Google"},
+      {"text": "Larry Page", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Larry_Page"},
+      {"text": "Sergey Brin", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Sergey_Brin"},
+      {"text": "Stanford University", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Stanford_University"}
+    ]
+  },
+  {
+    "id": "conll_03",
+    "text": "The European Union headquarters are located in Brussels, Belgium.",
+    "entities": [
+      {"text": "European Union", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/European_Union"},
+      {"text": "Brussels", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Brussels"},
+      {"text": "Belgium", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Belgium"}
+    ]
+  },
+  {
+    "id": "conll_04",
+    "text": "Elon Musk announced that Tesla will expand electric vehicle production in Berlin.",
+    "entities": [
+      {"text": "Elon Musk", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Elon_Musk"},
+      {"text": "Tesla", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Tesla,_Inc."},
+      {"text": "Berlin", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Berlin"}
+    ]
+  },
+  {
+    "id": "conll_05",
+    "text": "Barack Obama visited the United Nations headquarters in New York City.",
+    "entities": [
+      {"text": "Barack Obama", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Barack_Obama"},
+      {"text": "United Nations", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/United_Nations"},
+      {"text": "New York City", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/New_York_City"}
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "health_01",
+    "domain": "Healthcare",
+    "text": "Pfizer and BioNTech collaborated on the mRNA vaccine to fight COVID-19 under WHO guidelines.",
+    "entities": [
+      {"text": "Pfizer", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Pfizer"},
+      {"text": "BioNTech", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/BioNTech"},
+      {"text": "WHO", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/World_Health_Organization"}
+    ]
+  },
+  {
+    "id": "health_02",
+    "domain": "Healthcare",
+    "text": "The patient with Type 2 Diabetes was prescribed Metformin by doctors at the Mayo Clinic in Minnesota.",
+    "entities": [
+      {"text": "Metformin", "label": "DRUG", "gold_url": "https://en.wikipedia.org/wiki/Metformin"},
+      {"text": "Mayo Clinic", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Mayo_Clinic"},
+      {"text": "Minnesota", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Minnesota"}
+    ]
+  },
+  {
+    "id": "finance_01",
+    "domain": "Finance",
+    "text": "Jerome Powell announced that the Federal Reserve will adjust interest rates to curb inflation on Wall Street.",
+    "entities": [
+      {"text": "Jerome Powell", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Jerome_Powell"},
+      {"text": "Federal Reserve", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Federal_Reserve"},
+      {"text": "Wall Street", "label": "LOC", "gold_url": "https://en.wikipedia.org/wiki/Wall_Street"}
+    ]
+  },
+  {
+    "id": "finance_02",
+    "domain": "Finance",
+    "text": "Goldman Sachs and BlackRock increased their investments in technology assets traded on Nasdaq.",
+    "entities": [
+      {"text": "Goldman Sachs", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Goldman_Sachs"},
+      {"text": "BlackRock", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/BlackRock"},
+      {"text": "Nasdaq", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Nasdaq"}
+    ]
+  },
+  {
+    "id": "sales_01",
+    "domain": "Sales & Commerce",
+    "text": "Salesforce announced a new CRM automation suite to boost B2B enterprise pipeline conversion.",
+    "entities": [
+      {"text": "Salesforce", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Salesforce"}
+    ]
+  },
+  {
+    "id": "sales_02",
+    "domain": "Sales & Commerce",
+    "text": "Amazon Prime Day generated record e-commerce revenue for retail sellers across North America.",
+    "entities": [
+      {"text": "Amazon", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Amazon_(company)"},
+      {"text": "North America", "label": "LOC", "gold_url": "https://en.wikipedia.org/wiki/North_America"}
+    ]
+  },
+  {
+    "id": "ambiguity_01",
+    "domain": "Ambiguity Resolution",
+    "text": "Apple reported record quarterly earnings driven by strong iPhone sales in Japan.",
+    "entities": [
+      {"text": "Apple", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Apple_Inc."},
+      {"text": "iPhone", "label": "PRODUCT", "gold_url": "https://en.wikipedia.org/wiki/IPhone"},
+      {"text": "Japan", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Japan"}
+    ]
+  },
+  {
+    "id": "ambiguity_02",
+    "domain": "Ambiguity Resolution",
+    "text": "The orchard harvest produced fresh red apple baskets for the local autumn fruit market.",
+    "entities": [
+      {"text": "apple", "label": "PRODUCT", "gold_url": "https://en.wikipedia.org/wiki/Apple"}
+    ]
+  },
+  {
+    "id": "ambiguity_03",
+    "domain": "Ambiguity Resolution",
+    "text": "Michael Jordan scored 38 points to lead the Chicago Bulls in the NBA Finals.",
+    "entities": [
+      {"text": "Michael Jordan", "label": "PERSON", "gold_url": "https://en.wikipedia.org/wiki/Michael_Jordan"},
+      {"text": "Chicago Bulls", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Chicago_Bulls"},
+      {"text": "NBA", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/National_Basketball_Association"}
+    ]
+  },
+  {
+    "id": "ambiguity_04",
+    "domain": "Ambiguity Resolution",
+    "text": "The capital of Jordan is Amman, known for its historic Roman theater and desert landscapes.",
+    "entities": [
+      {"text": "Jordan", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Jordan"},
+      {"text": "Amman", "label": "GPE", "gold_url": "https://en.wikipedia.org/wiki/Amman"}
+    ]
+  },
+  {
+    "id": "ambiguity_05",
+    "domain": "Ambiguity Resolution",
+    "text": "Jaguar launched an all-electric luxury sedan with high-performance lithium battery powertrain.",
+    "entities": [
+      {"text": "Jaguar", "label": "ORG", "gold_url": "https://en.wikipedia.org/wiki/Jaguar_Cars"}
+    ]
+  },
+  {
+    "id": "ambiguity_06",
+    "domain": "Ambiguity Resolution",
+    "text": "The wild jaguar stalked its prey through the dense foliage of the Amazon rainforest.",
+    "entities": [
+      {"text": "jaguar", "label": "ANIMAL", "gold_url": "https://en.wikipedia.org/wiki/Jaguar"},
+      {"text": "Amazon", "label": "LOC", "gold_url": "https://en.wikipedia.org/wiki/Amazon_rainforest"}
+    ]
+  }
+]
